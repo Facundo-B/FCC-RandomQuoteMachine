@@ -7,7 +7,7 @@
   background-size: cover;
 }
 
-#quote-box #column {
+#column {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   font-family: "Damion", cursive;

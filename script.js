@@ -80,9 +80,12 @@ class QuoteBox extends React.Component {
 
   render() {
     return /*#__PURE__*/(
-      React.createElement("div", { id: "quote-box", className: "container" }, /*#__PURE__*/
-      React.createElement("div", { className: "row justify-content-center" }, /*#__PURE__*/
-      React.createElement("div", { id: "column", className: "col-12 col-md-6 col-lg-9 col-xl-5 p-5" }, /*#__PURE__*/
+      React.createElement("div", { className: "container-fluid vh-100 vw-100 d-flex justify-content-center align-items-center" }, /*#__PURE__*/
+      React.createElement("div", { id: "quote-box", className: "row d-flex justify-content-center w-100" }, /*#__PURE__*/
+      React.createElement("div", {
+        id: "column",
+        className: "col-12 col-sm-12 col-md-10 col-lg-9 col-xl-4 p-5" }, /*#__PURE__*/
+
       React.createElement("div", {
         id: "quote-txt",
         className: `animate__animated animate__slower ${
